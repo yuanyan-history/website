@@ -2,7 +2,8 @@ import phrCover from '../assets/phr-cover.png'
 import ghrCover from '../assets/ghr-cover.png'
 import taomoCover from '../assets/taomo-zhou-cover.png'
 import missionaryCover from '../assets/missionary-confucius-cover.png'
-import oxfordAnalytica from '../assets/oxford-analytica.png'
+import oaNonStrategic from '../assets/oa-us-china-non-strategic.png'
+import oaTradeLeverage from '../assets/oa-trade-leverage.png'
 
 const categories = [
   {
@@ -26,13 +27,18 @@ const categories = [
     label: 'Reports',
     posts: [
       {
+        title: 'US-China trade will improve in non-strategic sectors',
+        publisher: 'Oxford Analytica',
+        image: oaNonStrategic,
+        imagePosition: 'center center',
+        href: 'https://drive.google.com/file/d/1AhJTJjch5F5Td6FHY07B3iEDzehoEx5H/view?usp=sharing',
+      },
+      {
         title: 'China-US trade leverage moves will have lasting impact',
         publisher: 'Oxford Analytica',
-        image: oxfordAnalytica,
-        imageFit: 'contain',
+        image: oaTradeLeverage,
         imagePosition: 'center center',
-        imageBg: '#ffffff',
-        href: null,
+        href: 'https://drive.google.com/file/d/1GHhXYagqFJxx8KBsVumjOyFr2uichB4z/view?usp=sharing',
       },
       {
         title: "What China's Zero-tariff Policy Means for South Africa",
@@ -82,10 +88,10 @@ const categories = [
     label: 'Peer-Reviewed Articles',
     posts: [
       {
-        title: '"Channeling Expertise: Sinologists and America\'s China Policy, 1966–1968," Pacific Historical Review (accepted July 2025, forthcoming)',
+        title: '"Channeling Expertise: Sinologists and America\'s China Policy, 1966–1968," Pacific Historical Review, Vol. 95, Number 4, pps. 429–458.',
         publisher: 'Pacific Historical Review',
         image: phrCover,
-        href: null,
+        href: 'https://drive.google.com/file/d/1N0hWmatRF79xg8VjOgelc98H1XpnRvQJ/view?usp=sharing',
       },
       {
         title: 'Hongfei Shi, Yuan Yan, "Digital Resources in the Study of the History of International Organizations," Global History Review 25, no.2 (2023): 82–101',
